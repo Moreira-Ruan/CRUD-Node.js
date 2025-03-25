@@ -40,7 +40,14 @@ git clone https://github.com/seu-usuario/crud-node-sqlite
 cd crud-node-sqlite
 
 # 2. Instale as dependências
-npm install
+npm install express sqlite3 jsonwebtoken bcrypt body-parser
+npm install --save-dev nodemon
+no package.json adicione a linha start e dev
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
 ```
 
 ---
