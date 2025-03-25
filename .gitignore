@@ -2,8 +2,8 @@
 node_modules/
 .env
 *.log
-package-lock.json
-package.json
+/package-lock.json
+/package.json
 
 # Banco de dados SQLite
 database/users.db
