@@ -1,0 +1,15 @@
+# Node.js
+node_modules/
+.env
+*.log
+
+# Banco de dados SQLite
+database/users.db
+
+# Configurações locais do editor
+.vscode/
+*.code-workspace
+
+# Sistema
+.DS_Store
+Thumbs.db
